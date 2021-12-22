@@ -1,0 +1,13 @@
+@import './abstract/variables';
+@import './abstract/utilities';
+@import './abstract/mixins';
+@import './abstract/animations';
+@import './abstract/base';
+
+// components
+@import './components/product-card';
+@import './components/navbar';
+@import './components/form';
+
+// pages
+@import './pages/home';

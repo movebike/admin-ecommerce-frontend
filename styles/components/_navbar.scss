@@ -1,0 +1,35 @@
+.navbar {
+    &.bg-movebike {
+        background-color: $primary-blue;
+        color: $white;
+
+        a {
+            text-decoration: none;
+            color: $white;
+        }
+
+        .navbar-collapse {
+            flex-grow: unset;
+        }
+    }
+
+    .items-cart {
+        position: relative;
+        max-width: 18px;
+        .items-quantity {
+            background: $primary-orange-dark;
+            border-radius: 50px;
+            color: $white;
+            padding: 0 10px;
+            position: absolute;
+            right: -25px;
+            top: -5px;
+            font-family: $font-nunito;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 10px;
+            line-height: 13px;
+            letter-spacing: 0.02em;
+        }
+    }
+}
