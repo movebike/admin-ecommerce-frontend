@@ -1,4 +1,4 @@
-
+import { useEffect, useState, useContext } from 'react'
 import Form from '../components/Form'
 import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
@@ -18,7 +18,7 @@ export default function Home () {
             <Product />
           </div>
           <div className='col-12 mt-4'>
-            <TableProducts products />
+            <TableProducts />
           </div>
         </div>
       </main>
